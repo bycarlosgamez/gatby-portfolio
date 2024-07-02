@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Portfolio",
-    pathPrefix: "/gatsby-portfolio",
+    pathPrefix: '/gatsby-portfolio',
+    title: 'Gatsby Portfolio',
   },
   plugins: [
-    "gatsby-plugin-react-helmet",
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
+    'gatsby-plugin-react-helmet',
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-favicons',
       options: {
@@ -21,9 +21,9 @@ module.exports = {
           coast: false,
           favicons: true,
           yandex: false,
-          windows: false
-        }
-      }
-    }
+          windows: false,
+        },
+      },
+    },
   ],
 };
