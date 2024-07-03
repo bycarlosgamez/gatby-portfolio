@@ -277,27 +277,33 @@ function Navigation(props) {
                 </motion.ul> */}
                 <h5 class={styles.label}>Contact</h5>
                 <motion.div className={styles.socialIcons}>
-                  <Link to='https://www.linkedin.com/in/bycarlosgamez/'>
+                  <a
+                    href='https://www.linkedin.com/in/bycarlosgamez/'
+                    target='_blank'
+                  >
                     <img
                       src={linkedinIcon}
                       alt='LinkedIn Icon'
                       className={styles.social}
                     />
-                  </Link>
-                  <Link to='https://github.com/bycarlosgamez'>
+                  </a>
+                  <a href='https://github.com/bycarlosgamez' target='_blank'>
                     <img
                       src={githubIcon}
                       alt='Github Icon'
                       className={styles.social}
                     />
-                  </Link>
-                  <Link to='https://www.threads.net/@omgitscharly'>
+                  </a>
+                  <a
+                    href='https://www.threads.net/@omgitscharly'
+                    target='_blank'
+                  >
                     <img
                       src={threadsIcon}
                       alt='ThreadsIcon'
                       className={styles.social}
                     />
-                  </Link>
+                  </a>
                 </motion.div>
               </div>
             </motion.div>
