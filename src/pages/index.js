@@ -72,6 +72,13 @@ const IndexPage = () => {
           content='The work of Carlos, a product designer and design technologist from Mexico.'
         />
         <link rel='canonical' href='https://bycarlosgamez.com/' />
+        <link rel='preconnect' href='https://fonts.googleapis.com' />
+        <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+        <link
+          href='https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap'
+          rel='stylesheet'
+        />
+        <script async src='https://cdn.splitbee.io/sb.js'></script>
       </Helmet>
       <Navigation onLinkEnter={linkEnter} onLinkLeave={cursorLeave} />
       <Hero
