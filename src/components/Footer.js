@@ -31,7 +31,12 @@ function Footer(props) {
             If you just want to contact me, feel free to reach out!
           </h2>
           <h2 className={`${styles.title} ${styles.contact} `}>
-            <a href='https://www.linkedin.com/in/bycarlosgamez/'>Let's chat.</a>
+            <a
+              href='https://www.linkedin.com/in/bycarlosgamez/'
+              target='_blank'
+            >
+              Let's chat.
+            </a>
           </h2>
         </div>
         <nav className={styles.footerLinks}>
